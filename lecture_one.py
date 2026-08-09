@@ -72,7 +72,19 @@
 # str = "come here"
 # print(str)
 
-print(str.endswith("go"))
-print(str.endswith("here"))
+# print(str.endswith("go"))
+# print(str.endswith("here"))
 
 #Done
+# q = input("Expression: ")
+# x, y, z = q.split()
+# x = int(x)
+# z = int(z)
+# if y == "+":
+#     print(x+z)
+# elif y == "-":
+#     print(x-z)
+# elif y == "*":
+#     print(x*z)
+# elif y == "/":
+#     print(x/z)
