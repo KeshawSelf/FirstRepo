@@ -142,12 +142,16 @@
 #         print("Slytherin")
 #     case _:
 #         print("Who?")
-name = input("What's your name? ")
-match name :
-    case "Harry" | "Hermione" | "Ron":
-        print("Gryffindor")
-    case "Draco":
-        print("Slytherin")
-    case _:
-        print("Who?")
+# name = input("What's your name? ")
+# match name :
+#     case "Harry" | "Hermione" | "Ron":
+#         print("Gryffindor")
+#     case "Draco":
+#         print("Slytherin")
+#     case _:
+#         print("Who?")
+i = 3
+while i != 0:
+    print("meow")
+    
 
