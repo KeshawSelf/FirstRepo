@@ -150,8 +150,90 @@
 #         print("Slytherin")
 #     case _:
 #         print("Who?")
-i = 3
-while i != 0:
-    print("meow")
+# i = 1
+# while i <= 3:
+#     print("meow")
+#     i = i + 1
+# for i in [0, 1, 2]:
+#     print("meow")
+# for _ in range(3):
+#     print("meow")
+# print("meow\n" * 3, end = "")
+# print("meow" * 2, sep = "_")
+# while True:
+#     n = int(input("What's n? "))
+#     if n < 0:
+#         continue
+#     else:
+#         break
+    # if n > 0:
+    #     break
+# while True:
+#     n = int(input("What's n? "))
+#     if n > 0:
+#         break
+
+# for _ in range(n):
+#     print("meow")
+# def main():
+#     number = get_number()
+#     meow(number)
+
+# def get_number():
+#     while True:
+#         x = int(input("What's n? "))
+#         if x > 0:
+#             break
+#     return x
+
+# def meow(n):
+#     for _ in range(n):
+#         print("meow")
     
 
+# main()
+# def main():
+#     meow(get_number())
+
+
+# def get_number():
+#     while True:
+#         x = int(input("What's n? "))
+#         if x > 0:
+#             return x
+
+
+# def meow(n):
+#     for _ in range(n):
+#         print("meow")
+
+
+# main()
+# students = ["Hermione", "Harry", "Ron"]
+# for i in range(len(students)):
+#     print(i + 1, students[i])
+# students = {
+#     "Hermione" : "Gryffindor",
+#     "Harry" : "Gryffindor",
+#     "Ron" : "Gryffindor",
+#     "Draco" : "Slytherin"
+# }
+
+# print(students["Hermione"])
+# print(students["Harry"])
+# print(students["Ron"])
+# print(students["Draco"])
+# for student in students:
+#     print(student, students[student], sep=", ")
+# print(type(students[student]))
+
+# students = [
+#     {"name" : "Hermione", "house" : "Gryffindor", "patronus" : "Otter"},
+#     {"name" : "Harry", "house" : "Gryffindor", "patronus" : "Stag"},
+#     {"name" : "Ron", "house" : "Gryffindor", "patronus" : "Jack Russell terrier"},
+#     {"name" : "Draco", "house" : "Slytherin", "patronus" : None},
+
+# ]
+
+# for student in students:
+#     print(student["name"], student["house"], student["patronus"], sep = ", ")
