@@ -156,14 +156,3 @@
 # print_list(fruits)
 
 #Done
-
-    
-
-
-
-
-
-
-
-
-
