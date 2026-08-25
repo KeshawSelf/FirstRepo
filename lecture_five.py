@@ -189,20 +189,3 @@ while i <= n :
 print("factorial =", fact)
 
 #Done
-
-    
-
-
-
-
-
-
-
-
-
-    
-
-
-    
-
-
