@@ -237,3 +237,81 @@
 
 # for student in students:
 #     print(student["name"], student["house"], student["patronus"], sep = ", ")
+# x = 50
+# print("Amount Due:",x)
+# while x > 0:
+#   y = int(input("Insert Coin:"))
+#   if y == 25 or y == 10 or y == 5:
+#     if x-y > 0:
+#      print("Amount Due:",x-y)
+#      x = x-y
+#     elif x-y <= 0:
+#         print("Change Owed:",y-x)
+#         break
+#   else:
+#     print("Amount Due:",x)
+
+# x = 50
+# while x > 0:
+#     print("Amount Due:",x)
+#     y = int(input("Insert Coin: "))
+#     if y == 25 or y == 10 or y == 5:
+#         x = x - y
+# if x <= 0:
+#     print("Change Owed:",-x)
+
+# x = input("Input: ")
+# for y in x:
+#     if y=="a" or y=="e" or y=="i" or y=="o" or y=="u" or y=="A" or y=="E" or y=="I" or y=="O" or y=="U":
+#         z = x.replace(y,"")
+#         x = z
+
+# print(z)
+# def main():
+#     plate = input("Plate: ")
+#     if is_valid(plate):
+#         print("Valid")
+#     else:
+#         print("Invalid")
+
+
+# def is_valid(s):
+#     s = str(s)
+#     for i in range(len(s)):
+#        if s[i].isdigit() and s[i+1].isalpha():
+#           return False
+#        else:
+#            return True
+      
+
+
+
+# main()
+# def main():
+# s = input("Plate: ")
+#     if is_valid(plate):
+#         print("Valid")
+#     else:
+#         print("Invalid")
+
+
+# def is_valid(s):
+# s = str(s)
+    # if 2 <= len(s) <= 6:
+    #     if s.isalpha():
+    #         return True
+    #     elif s.isalnum() and s[0].isalpha() and s[1].isalpha():
+# for i in s:
+#     if i.isdigit():
+#      n = s.index(i)
+#      new = s[n:]
+#      if new[0] == "0":
+#         print("yes")
+# main()
+try:
+    x = int(input("What's x? "))
+    
+except ValueError:
+    print("x is not an integer")
+else:
+    print(f"x is {x}")
