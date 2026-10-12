@@ -308,11 +308,15 @@
 #      if new[0] == "0":
 #         print("yes")
 # main()
-try:
-    x = int(input("What's x? "))
+# try:
+#     x = int(input("What's x? "))
     
-except ValueError:
-    print("x is not an integer")
-else:
-    print(f"x is {x}")
-    
+# except ValueError:
+#     print("x is not an integer")
+# else:
+#     print(f"x is {x}")
+
+# import random
+
+# coin = random.randint(1,3)
+# print(coin)
