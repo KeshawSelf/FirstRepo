@@ -109,8 +109,20 @@
 # if __name__ == "__main__" :
 #     main()
 
-import sys
-from say import goodnight
+# import sys
+# from say import goodnight
 
-if len(sys.argv) == 2 :
-    goodnight(sys.argv[1])
+# if len(sys.argv) == 2 :
+#     goodnight(sys.argv[1])
+
+# from say import wish
+# name = input("Enter your name: ")
+# wish(name)
+
+# import emoji
+# print(emoji.emojize(":thumbs_up:"))
+
+# import pyfiglet
+# import sys
+
+# print(pyfiglet.figlet_format("Hello", font = "larry3d"))

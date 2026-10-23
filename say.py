@@ -13,5 +13,6 @@
 # def goodnight(name) :
 #     print(f"GoodNight, {name}")
 
-def min_hrs(n) :
-    print(f"{n/60} hrs in {n} minutes")
+# def wish(n) :
+#     print(f"Happy B'day {n}")
+
